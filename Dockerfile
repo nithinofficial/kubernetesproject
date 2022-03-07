@@ -1,6 +1,6 @@
-FROM ubuntu:latest
+FROM centos:latest
 MAINTAINER nithindappula.dn@gmail.com
-RUN sudo apt install -y httpd \
+RUN yum install -y httpd \
   zip \
  unzip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page258/loxury.zip /var/www/html/
