@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER nithindappula.dn@gmail.com
+MAINTAINER nithindappula@infotech.com
 RUN apt-get update
 RUN apt-get install -y httpd \
   zip \
